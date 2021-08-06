@@ -1,0 +1,41 @@
+.app-wrapper {
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: "h h" "n c";
+    grid-template-rows: 1fr;
+    grid-template-columns: 200px 10fr;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    background: #edeef0;
+}
+
+p, h1, h2, h3, h4, h5 {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.app-wrapper-content {
+    grid-area: c;
+    padding: 0;
+    margin: 0;
+}
+
+.active_nav {
+    background-color: dodgerblue;
+    border-radius: 5px;
+}
+
+* {
+    box-sizing: border-box;
+}
